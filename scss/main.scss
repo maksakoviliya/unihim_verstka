@@ -1,0 +1,17 @@
+@import "../libs/bulma/bulma";
+
+.page-link{
+	display: block;
+	span{
+		display: block;
+	}
+	.image{
+		position: relative;
+		overflow: hidden;
+		img{
+			position: absolute;
+			width: 100%;
+			height: auto;
+		}
+	}
+}
